@@ -9,11 +9,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <org.opencv.android.JavaCameraView
+    <TextureView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        opencv:camera_id="any"
-        android:visibility="gone"
-        android:id="@+id/activity_surface_view" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/texture"
+        />
 
 </LinearLayout>
